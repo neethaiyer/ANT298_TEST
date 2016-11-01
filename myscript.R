@@ -12,3 +12,7 @@ x <- runif(1000,0,100)
 y <- m*x+b+eps
 hist(x)
 plot(x, y, cex=0.5)
+
+#### 
+
+abline(lm(y~x), lty=3, col="red")
